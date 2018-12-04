@@ -30,7 +30,7 @@
 // bold/bright off  21
 // underline off    24
 // inverse off      27
-
+//source : https://stackoverflow.com/questions/2616906/how-do-i-output-coloured-text-to-a-linux-terminal
 
 namespace INK {
     ColorMode::ColorMode(COLOR foreground, COLOR background) : fg (static_cast <int> (foreground)), bg (static_cast <int> (background) + 10)
