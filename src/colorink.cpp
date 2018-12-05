@@ -46,7 +46,7 @@ namespace INK {
     boldOff_t boldOff;
 
     std::ostream& operator<< (std::ostream& os, const ColorMode& cm) {
-        std::cout << "\e";
+        std::cout << "\e[";
         if (cm.fg != 0xff)
             std::cout << cm.fg << ";";
         if (cm.bg != 0xff)
