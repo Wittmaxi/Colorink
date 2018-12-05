@@ -35,6 +35,7 @@ BLUE
 MAGENTA 
 CYAN
 WHITE
+NONE
 }
 ```
 

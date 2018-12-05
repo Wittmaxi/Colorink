@@ -14,7 +14,8 @@ namespace INK
         BLUE = 34,
         MAGENTA = 35,
         CYAN = 36,
-        WHITE = 37
+        WHITE = 37,
+        NONE = 0xff
     };
     struct ColorMode {
         ColorMode(COLOR foreground, COLOR background);
